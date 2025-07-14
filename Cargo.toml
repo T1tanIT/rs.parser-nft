@@ -1,0 +1,10 @@
+[package]
+name = "rustfind"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+grammers-client = { path = "grammers/lib/grammers-client/"}
+log = "0.4.27"
+simple_logger = "5.0.0"
+tokio = "1.46.1"
