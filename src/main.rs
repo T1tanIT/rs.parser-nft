@@ -77,8 +77,7 @@ async fn async_main() -> Result<()> {
         }
     }
     let mut gifts = Vec::new();
-    //let mut gift = prompt("Выберите Slug подарка для парсинга в формате «PlushPepe» ---> ")?;
-    let gift = "PlushPepe".to_string();
+    let mut gift = prompt("Выберите Slug подарка для парсинга в формате «PlushPepe» ---> ")?;
     let gift = gift.trim();
     let mut i = 1;
     loop {
